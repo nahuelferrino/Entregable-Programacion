@@ -1,0 +1,14 @@
+/Users/ferri/Biblioteca/AccesoDatos/bin/Debug/net10.0/AccesoDatos.deps.json
+/Users/ferri/Biblioteca/AccesoDatos/bin/Debug/net10.0/AccesoDatos.runtimeconfig.json
+/Users/ferri/Biblioteca/AccesoDatos/bin/Debug/net10.0/AccesoDatos.dll
+/Users/ferri/Biblioteca/AccesoDatos/bin/Debug/net10.0/AccesoDatos.pdb
+/Users/ferri/Biblioteca/AccesoDatos/obj/Debug/net10.0/AccesoDatos.csproj.AssemblyReference.cache
+/Users/ferri/Biblioteca/AccesoDatos/obj/Debug/net10.0/AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ferri/Biblioteca/AccesoDatos/obj/Debug/net10.0/AccesoDatos.AssemblyInfoInputs.cache
+/Users/ferri/Biblioteca/AccesoDatos/obj/Debug/net10.0/AccesoDatos.AssemblyInfo.cs
+/Users/ferri/Biblioteca/AccesoDatos/obj/Debug/net10.0/AccesoDatos.csproj.CoreCompileInputs.cache
+/Users/ferri/Biblioteca/AccesoDatos/obj/Debug/net10.0/AccesoDatos.dll
+/Users/ferri/Biblioteca/AccesoDatos/obj/Debug/net10.0/refint/AccesoDatos.dll
+/Users/ferri/Biblioteca/AccesoDatos/obj/Debug/net10.0/AccesoDatos.pdb
+/Users/ferri/Biblioteca/AccesoDatos/obj/Debug/net10.0/AccesoDatos.genruntimeconfig.cache
+/Users/ferri/Biblioteca/AccesoDatos/obj/Debug/net10.0/ref/AccesoDatos.dll
