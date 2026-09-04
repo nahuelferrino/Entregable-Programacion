@@ -2,6 +2,7 @@
 using AccesoDatos.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,9 +10,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AccesoDatos.Migrations
 {
     [DbContext(typeof(AplicationDbContext))]
-    partial class AplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260904195126_AgregarCategoria")]
+    partial class AgregarCategoria
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "10.0.11");
@@ -43,7 +46,7 @@ namespace AccesoDatos.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categorias");
+                    b.ToTable("Categoria");
                 });
 
             modelBuilder.Entity("AccesoDatos.Models.Libro", b =>
@@ -86,7 +89,7 @@ namespace AccesoDatos.Migrations
                         .IsRequired();
 
                     b.HasOne("AccesoDatos.Models.Categoria", "Categoria")
-                        .WithMany("Libros")
+                        .WithMany()
                         .HasForeignKey("CategoriaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -99,11 +102,6 @@ namespace AccesoDatos.Migrations
             modelBuilder.Entity("AccesoDatos.Models.Autor", b =>
                 {
                     b.Navigation("libros");
-                });
-
-            modelBuilder.Entity("AccesoDatos.Models.Categoria", b =>
-                {
-                    b.Navigation("Libros");
                 });
 #pragma warning restore 612, 618
         }

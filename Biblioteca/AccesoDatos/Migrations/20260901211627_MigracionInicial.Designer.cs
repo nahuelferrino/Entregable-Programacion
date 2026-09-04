@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AccesoDatos.Migrations
 {
     [DbContext(typeof(AplicationDbContext))]
-    [Migration("20260826232319_AgregarAutoresYLibros")]
-    partial class AgregarAutoresYLibros
+    [Migration("20260901211627_MigracionInicial")]
+    partial class MigracionInicial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -38,6 +38,9 @@ namespace AccesoDatos.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool?>("Activo")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("AnioDePublicacion")

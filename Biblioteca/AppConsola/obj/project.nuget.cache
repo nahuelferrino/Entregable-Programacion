@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c04BHJnHLAc=",
+  "dgSpecHash": "29UVGeu5vdc=",
   "success": true,
-  "projectFilePath": "/Users/ferri/Documents/GitHub/Entregable-Programacion/Biblioteca/AppConsola/AppConsola.csproj",
+  "projectFilePath": "/Users/ferri/Biblioteca/AppConsola/AppConsola.csproj",
   "expectedPackageFiles": [
     "/Users/ferri/.nuget/packages/microsoft.data.sqlite.core/10.0.11/microsoft.data.sqlite.core.10.0.11.nupkg.sha512",
     "/Users/ferri/.nuget/packages/microsoft.entityframeworkcore/10.0.11/microsoft.entityframeworkcore.10.0.11.nupkg.sha512",

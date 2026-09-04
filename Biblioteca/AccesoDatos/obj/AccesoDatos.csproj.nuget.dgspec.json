@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ferri/Documents/GitHub/Entregable-Programacion/Biblioteca/AccesoDatos/AccesoDatos.csproj": {}
+    "/Users/ferri/Biblioteca/AccesoDatos/AccesoDatos.csproj": {}
   },
   "projects": {
-    "/Users/ferri/Documents/GitHub/Entregable-Programacion/Biblioteca/AccesoDatos/AccesoDatos.csproj": {
+    "/Users/ferri/Biblioteca/AccesoDatos/AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ferri/Documents/GitHub/Entregable-Programacion/Biblioteca/AccesoDatos/AccesoDatos.csproj",
+        "projectUniqueName": "/Users/ferri/Biblioteca/AccesoDatos/AccesoDatos.csproj",
         "projectName": "AccesoDatos",
-        "projectPath": "/Users/ferri/Documents/GitHub/Entregable-Programacion/Biblioteca/AccesoDatos/AccesoDatos.csproj",
+        "projectPath": "/Users/ferri/Biblioteca/AccesoDatos/AccesoDatos.csproj",
         "packagesPath": "/Users/ferri/.nuget/packages/",
-        "outputPath": "/Users/ferri/Documents/GitHub/Entregable-Programacion/Biblioteca/AccesoDatos/obj/",
+        "outputPath": "/Users/ferri/Biblioteca/AccesoDatos/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ferri/.nuget/NuGet/NuGet.Config"

@@ -10,7 +10,11 @@ namespace AccesoDatos.Repositories
     public interface IGenericRepository<T> where T : class
     {
         void Agregar(T entidad);
-        List<T> ObtenerTodos();
+        List<T> ObtenerTodos(string propiedadRelacionada);
         T ObtenerPorId(int id);
+        void Modificar(T entidad);
+        void Eliminar(object id);
+        List<T> ObtenerTodos();
+        
     }
 }

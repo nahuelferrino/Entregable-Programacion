@@ -5,7 +5,7 @@
 namespace AccesoDatos.Migrations
 {
     /// <inheritdoc />
-    public partial class AgregarAutoresYLibros : Migration
+    public partial class MigracionInicial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -31,7 +31,8 @@ namespace AccesoDatos.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     Titulo = table.Column<string>(type: "TEXT", nullable: false),
                     AnioDePublicacion = table.Column<int>(type: "INTEGER", nullable: false),
-                    AutorId = table.Column<int>(type: "INTEGER", nullable: false)
+                    AutorId = table.Column<int>(type: "INTEGER", nullable: false),
+                    Activo = table.Column<bool>(type: "INTEGER", nullable: true)
                 },
                 constraints: table =>
                 {
