@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ferri/Biblioteca/AppConsola/AppConsola.csproj": {}
+    "/Users/ferri/Documents/GitHub/Entregable-Programacion/Biblioteca/AppConsola/AppConsola.csproj": {}
   },
   "projects": {
-    "/Users/ferri/Biblioteca/AccesoDatos/AccesoDatos.csproj": {
+    "/Users/ferri/Documents/GitHub/Entregable-Programacion/Biblioteca/AccesoDatos/AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ferri/Biblioteca/AccesoDatos/AccesoDatos.csproj",
+        "projectUniqueName": "/Users/ferri/Documents/GitHub/Entregable-Programacion/Biblioteca/AccesoDatos/AccesoDatos.csproj",
         "projectName": "AccesoDatos",
-        "projectPath": "/Users/ferri/Biblioteca/AccesoDatos/AccesoDatos.csproj",
+        "projectPath": "/Users/ferri/Documents/GitHub/Entregable-Programacion/Biblioteca/AccesoDatos/AccesoDatos.csproj",
         "packagesPath": "/Users/ferri/.nuget/packages/",
-        "outputPath": "/Users/ferri/Biblioteca/AccesoDatos/obj/",
+        "outputPath": "/Users/ferri/Documents/GitHub/Entregable-Programacion/Biblioteca/AccesoDatos/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ferri/.nuget/NuGet/NuGet.Config"
@@ -351,14 +351,14 @@
         }
       }
     },
-    "/Users/ferri/Biblioteca/AppConsola/AppConsola.csproj": {
+    "/Users/ferri/Documents/GitHub/Entregable-Programacion/Biblioteca/AppConsola/AppConsola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ferri/Biblioteca/AppConsola/AppConsola.csproj",
+        "projectUniqueName": "/Users/ferri/Documents/GitHub/Entregable-Programacion/Biblioteca/AppConsola/AppConsola.csproj",
         "projectName": "AppConsola",
-        "projectPath": "/Users/ferri/Biblioteca/AppConsola/AppConsola.csproj",
+        "projectPath": "/Users/ferri/Documents/GitHub/Entregable-Programacion/Biblioteca/AppConsola/AppConsola.csproj",
         "packagesPath": "/Users/ferri/.nuget/packages/",
-        "outputPath": "/Users/ferri/Biblioteca/AppConsola/obj/",
+        "outputPath": "/Users/ferri/Documents/GitHub/Entregable-Programacion/Biblioteca/AppConsola/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ferri/.nuget/NuGet/NuGet.Config"
@@ -374,8 +374,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/Users/ferri/Biblioteca/AccesoDatos/AccesoDatos.csproj": {
-                "projectPath": "/Users/ferri/Biblioteca/AccesoDatos/AccesoDatos.csproj"
+              "/Users/ferri/Documents/GitHub/Entregable-Programacion/Biblioteca/AccesoDatos/AccesoDatos.csproj": {
+                "projectPath": "/Users/ferri/Documents/GitHub/Entregable-Programacion/Biblioteca/AccesoDatos/AccesoDatos.csproj"
               }
             }
           }
