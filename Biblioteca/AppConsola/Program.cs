@@ -1,5 +1,4 @@
-﻿using System.Security.Cryptography;
-using AccesoDatos.Models;
+﻿using AccesoDatos.Models;
 using AccesoDatos.Repositories;
 
 IGenericRepository<Autor> autorRepository = new GenericRepository<Autor>();
